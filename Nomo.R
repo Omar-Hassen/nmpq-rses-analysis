@@ -57,9 +57,10 @@ summary(RegNomSel)
                         strata = "Predominant.Smartphone.Usage.Habit.original")
  Table3 <- print(Tab3, nonnormal = NomVars ,   test = TRUE    , pDigits = 3)
  write.csv(Table3, "NomoTable3.csv")
- #Getting the P-value (results are reported with caution as some groups have as few as 1 subjects)
+ #Getting the P-value (results are reported with caution as some groups have as few as 1 subject)
  kwTest <- kruskal.test(
    Nomophobia.Score ~ Predominant.Smartphone.Usage.Habit.original)
  kwTest$p.value
  
+
  
