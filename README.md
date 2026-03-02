@@ -16,6 +16,7 @@ All analyses were conducted using R
 ### Normality testing using Shapiro-Wilk test
 ### Non-parametric correlations (Spearman)
 ### Linear regression modeling
+Although correlation was measured using Spearman’s method due to the non-normality of the data, a linear regression model was used, as suggested by [Lumley et al. (2002)](https://doi.org/10.1146/annurev.publhealth.23.100901.140546), given the sufficiently large sample size (N=365). The sample was deemed “sufficiently large” if it had around 100 subjects to use linear regression in non-normally distributed data if the sample was around 100 subjects
 ### Group comparisons using Kruskal-Wallis test
 ### Visualization using ggstatsplot
 
